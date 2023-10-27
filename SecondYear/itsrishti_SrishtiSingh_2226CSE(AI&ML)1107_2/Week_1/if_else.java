@@ -1,0 +1,15 @@
+public class if_else {
+        public static String compareIfElse(int a, int b) {
+            // Write your code here
+            if(a>b){
+                return "greater";
+            }
+            else if(b>a){
+                return "smaller";
+            }
+            else if(a==b){
+                return "equal";
+            }
+            return "null";        
+        }
+}
